@@ -1,0 +1,887 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+
+html{
+    
+    margin: 0;
+    
+    scroll-behavior: smooth;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background: rgb(2,117,216);
+    background: linear-gradient(90deg, rgba(2,117,216,1) 0%, rgba(2,117,216,1) 50%, rgba(200,86,90,1) 50%, rgba(200,86,90,1) 100%);
+}
+
+.socialNav{
+    width: 100%;
+    height: 2em;
+    background: rgb(24,19,204);
+    background: linear-gradient(90deg, rgba(24,19,204,1) 0%, rgba(24,19,204,1) 50%, rgba(191,31,26,1) 50%, rgba(191,31,26,1) 100%);
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    z-index: 10001;
+  
+}
+   
+.socialNav img{
+    width: 3em;
+    height: 2.5em;
+    padding: 0;
+    margin: 0;
+    margin-top: 0.5em;   
+    padding-bottom: 0.5em;
+}
+.socialNav button{
+    width: 10em;
+    height: 2em;
+    font-weight: bold;
+    font-size: 1.em;
+    background-color: black;
+    color: white;
+    margin-top: 0.5em;
+  
+    
+    
+
+}
+.navbar{
+    width: 100%;
+    height: auto;
+    background: rgb(24,19,204);
+    background: linear-gradient(90deg, rgba(24,19,204,1) 0%, rgba(24,19,204,1) 50%, rgba(191,31,26,1) 50%, rgba(191,31,26,1) 100%);
+    position: fixed;
+    top: 3%;
+    z-index: 1000;
+    
+    
+
+}
+
+
+
+
+.mainBg{
+    margin-top: 5.5%;
+    width: 100%;
+    height: 600px;
+    
+    
+    opacity: 100%;
+    
+   
+}
+
+.mainBg h1{
+    width: 10%;
+    position: absolute;
+    font-size: calc(1em + 1vw);
+    font-size: 5.5em;
+    font-family: 'Titan One', cursive;
+    top: 15%;
+    left: 9%;
+    color: rgba(255, 255, 255,0.7);
+    opacity: 60%;
+    
+}
+
+.mainBg h2{
+    width: 100%;
+    position: absolute;
+    float: right;
+    font-size: calc(1em + 1vw);
+    top: 15%;
+    left: 68%;
+    font-size: 5.5em;
+    font-family: 'Titan One', cursive;
+    color: rgba(255, 255, 255,0.7);
+    opacity: 40%;
+}
+
+
+.navbar img{
+    width: 10em;
+    height: 3.5em;
+    margin-left: 5%;
+    margin-top: 0;
+   
+}
+
+
+
+.nav-link{
+    
+    font-weight: bolder;
+    font-size: 1em;
+    
+   
+}
+
+
+
+
+
+.bServices{
+    width: 100%;
+    height: auto;
+   
+   
+  
+}
+
+.card1,
+.card2,
+.card3{
+    background-color: #0275d8
+}
+
+.card4,
+.card5,
+.card6{
+    background-color: #d9534f;
+    
+}
+
+.booking1{
+    width: 100%;
+    height: 190px;
+    background-image: url(Disin.png);
+    background-size: 100%;
+    color: #232fcf;
+    padding-top: 2.5em;
+    text-transform: uppercase;
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 0.1em;
+    text-decoration-color: lawngreen;
+    
+    font-weight: 900;
+    font-size: 1.7em;
+    
+}
+.booking2{
+    width: 100%;
+    height: 190px;
+    background-image: url(Odour.png);
+    background-size: 125%;
+    color: #232fcf;
+    padding-top: 2.5em;
+    text-transform: uppercase;
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 0.1em;
+    text-decoration-color: lawngreen;
+    
+    font-weight: 900;
+    font-size: 1.7em;
+    
+}
+.booking3{
+    width: 100%;
+    height: 190px;
+    background-image: url(Car.png);
+    background-size: 125%;
+    color: #232fcf;
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 0.1em;
+    
+    padding-top: 2.5em;
+    text-transform: uppercase;
+    text-decoration-color: lawngreen;
+    
+    font-weight: 900;
+    font-size: 1.7em;
+    
+}
+.booking4{
+    width: 100%;
+    height: 190px;
+    background-image: url(Micro.png);
+    background-size: 125%;
+    color: rgba(255,0,0,0.9);
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 0.1em;
+    padding-top: 2.5em;
+    text-transform: uppercase;
+    text-decoration-color: lawngreen;
+    
+    font-weight: 900;
+    font-size: 1.7em;
+    
+}
+.booking5{
+    width: 100%;
+    height: 190px;
+    background-image: url(ac-duct-cleaning.jpeg);
+    background-size: 125%;
+    color: rgba(255,0,0,0.9);
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 0.1em;
+    padding-top: 2.5em;
+    text-transform: uppercase;
+    text-decoration-color: lawngreen;
+    
+    font-weight: 900;
+    font-size: 1.7em;
+    
+}
+.booking6{
+    width: 100%;
+    height: 190px;
+    background-image: url(Ac\ disin.jpg);
+    background-size: 155%;
+    color: rgba(255,0,0,0.9);
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 0.1em;
+    padding-top: 2.5em;
+    text-transform: uppercase;
+    text-decoration-color: lawngreen;
+    
+    font-weight: 900;
+    font-size: 1.7em;
+    
+}
+
+.card{
+    border: solid black;
+    border-radius: 2%;
+   
+}
+
+.card-title{
+    font-weight: bold;
+    font-family: 'Fredoka One', cursive;
+}
+
+.companyDetails{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    
+   
+   
+
+
+}
+.biosweep{
+    width: 100%;
+    height: auto;
+    
+    
+}
+.biosweep iframe{
+    width: 70%;
+    height: 350px;
+    position: relative;
+    margin-top: 15%;
+    margin-left: 15%;
+    border: solid 15px black;
+}
+.biosweep p{
+    width: 65%;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    color: black;
+    font-size: 1.5em;
+    margin-top: 2%;
+    margin-left: 18%;
+}
+.biosweep span{
+    color: black;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.biosweep h5{
+    width: 65%;
+    margin-top: 2%;
+    margin-left: 18%;
+    color: black;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.3em;
+    text-transform: uppercase;
+
+    font-weight: bolder;
+}
+.biosweep ul{
+    list-style-position: outside;
+    width: 65%;
+    
+    font-family: 'Libre Baskerville', serif;
+    color: black;
+    font-size: 1.5em;
+    margin-top: 2%;
+    margin-left: 18%;
+}
+ 
+.rotobrush{
+    width: 100%;
+    height: auto;
+    
+   
+}
+
+.rotobrush iframe{
+    width: 70%;
+    height: 350px;
+    position: relative;
+    margin-top: 15%;
+    margin-left: 15%;
+    border: solid 15px black;
+}
+.rotobrush p{
+    width: 65%;
+    margin-top: 2%;
+    color: black;
+    font-size: 1.5em;
+    margin-left: 18%;
+    font-family: 'Libre Baskerville', serif;
+
+   
+}
+.rotobrush span{
+    color: black;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.rotobrush h5{
+  
+    width: 65%;
+    margin-top: 2%;
+    margin-left: 18%;
+    color: black;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.3em;
+    text-transform: uppercase;
+
+    font-weight: bolder;
+
+}
+.rotobrush ul{
+    list-style-position: outside;
+    width: 65%;
+    color: white;
+    margin-top: 2%;
+    font-family: 'Libre Baskerville', serif;
+    color: black;
+    font-size: 1.5em;
+    margin-left: 18%;
+}
+
+.work{
+    width: 100%;
+    margin: 0px;
+    height: auto;
+     
+}
+.workText{
+    width: 100%;
+    font-family: 'Pacifico', cursive;
+    
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 1em;
+}
+.workText h2{
+    font-size: 3em;
+}
+
+.workVideos{
+    width: 100%;
+    margin: 0px;
+    height: auto;
+     
+}
+.workVideos iframe{
+    width: 100%;
+    height: 20em;
+    
+    border-radius: 5%;
+}
+
+.customerReviews{
+    width: 100%;
+    height: 500px;
+    
+}
+
+.customerReviews h2{
+    width: 100%;
+    text-align: center;
+    margin-top: 1em;
+    font-family: 'Pacifico', cursive;
+    font-size: 3em;
+}
+
+
+
+.review{
+    width: 40%;
+    
+    height: 400;
+    margin-left: 30%;
+    
+}
+
+.review img{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 5%;
+    border-radius: 5%;
+}
+
+.contactUs{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    
+}
+
+.contactUs h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 3em;
+    text-align: center;
+}
+.contactButton{
+    width: 100%;
+    color: black;
+    font-weight: bold;
+    border: solid 5px black;
+    background: rgb(2,117,216);
+    background: linear-gradient(90deg, rgba(2,117,216,1) 0%, rgba(2,117,216,1) 50%, rgba(200,86,90,1) 50%, rgba(200,86,90,1) 100%);
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    padding-top: 5em;
+    background: rgb(24,19,204);
+    background: linear-gradient(90deg, rgba(24,19,204,1) 0%, rgba(24,19,204,1) 50%, rgba(191,31,26,1) 50%, rgba(191,31,26,1) 100%);
+    clear: both;
+    margin-left: 0;
+    font-family: 'Fredoka One', cursive;
+    
+   
+  
+}
+.fServices,
+.fInformation,
+.fLogo,
+.fAbout{
+    
+    width: 100%;
+}
+
+
+
+.fLogo img{
+    width: 15em;
+    height: 10em;
+    
+}
+
+
+
+
+.fServices h3,
+.fAbout h3{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    
+    font-family: 'Fredoka One', cursive;
+
+}
+
+.fInformation h3{
+    color: rgba(255, 255, 255);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    
+    font-size: 1.5em;
+    font-weight: bolder;
+    font-family: 'Fredoka One', cursive;
+    
+}
+.fInformation iframe{
+    width: 20em;
+    height: 10em;
+    margin-bottom: 10%;
+    border-radius: 1%;
+}
+
+.sList h4,
+.aList h4{
+   
+    margin-top: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    
+}
+
+.iPhone,
+.iWhatsapp,
+.iEmail,
+.iLocation{
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 5%;
+    color: white;
+   
+    
+}
+.iPhone svg,
+.iWhatsapp svg,
+.iEmail svg,
+.iLocation svg{ 
+    color: black;
+    width: 1.2em;
+    height: 30px;
+    margin-left: 1em;
+}
+
+
+@media screen and (max-width: 992px) {
+
+    
+
+    .socialNav{
+        padding-right: 0.5em;
+        
+        height: 2em;
+        
+    }
+
+    .socialNav img{
+        width: 2em;
+        height: 2em;
+        margin-top: 0.3em; 
+        padding-bottom: 0.5em;
+   
+        
+        
+    }
+
+    .socialNav button{
+        width: 8em;
+        height: 2.5em;
+        font-size: 0.8em;
+        font-weight: bold;
+      
+    }
+    .navbar{
+        height: auto;
+    }
+    .nButton{
+        border: none;
+    }
+
+    .nButton:hover{
+        border: none;
+    }
+    
+
+
+
+    .mainSlide{
+        margin: 0;
+        padding-top: 50px;
+        width: 100%;
+        height: 400px;
+    }
+
+    .mainSlide img{
+        width: 100%;
+        height: 400px;
+    }
+
+    .carousel img{
+        width: 80%;
+    }
+
+    .mainBg h1
+    {
+        
+        font-size: 2em;
+        
+        opacity: 80%;
+     
+        
+    }
+    
+    .mainBg h2{
+        font-size: 2em;
+        left: 64%;
+        opacity: 80%;
+     
+    }
+    
+
+    .bServices{
+        margin-top: 15%;
+    }
+    
+    .card1,
+    .card3,
+    .card5{
+       background-color: #0275d8
+    }
+
+    .card2,
+    .card4,
+    .card6{
+       background-color: #d9534f
+    }
+
+    .biosweep{
+        width: 100%;
+        height: auto;
+        border-right: none;
+        
+        
+    }
+
+    .biosweep iframe{
+        width: 90%;
+        
+        
+        margin-top: 15%;
+        margin-left: 9%;
+        border: solid 15px black;
+    }
+    .biosweep p{
+        width: 85%;
+        font-size:1.3em;
+        margin-top: 2%;
+        margin-left: 10%;
+    }
+
+   
+
+    .biosweep h5{
+        width: 85%;
+        margin-top: 2%;
+        margin-left: 10%;
+        font-size: 1em;
+     
+    }
+    .biosweep ul{
+       
+        width: 85%;
+        
+        margin-top: 2%;
+        margin-left: 10%;
+    }
+
+    .rotobrush{
+        border-left: none;
+    }
+
+    .rotobrush iframe{
+        width: 90%;
+        
+        
+        margin-top: 15%;
+        margin-left: 9%;
+        border: solid 15px black;
+    }
+    .rotobrush p{
+        width: 85%;
+        font-size:1.3em;
+        margin-top: 2%;
+        margin-left: 10%;
+       
+    }
+
+    
+    .rotobrush h5{
+        width: 85%;
+        margin-top: 2%;
+        margin-left: 10%;
+        font-size: 1em;
+        color: black;
+    }
+
+    .rotobrush ul{
+        width: 85%;
+        
+        margin-top: 2%;
+        margin-left: 10%;
+        
+    }
+    .workVideos{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .workVideos iframe{
+        margin-bottom: 1em;
+        width: 180%;
+        border-radius: 0%;
+        height: 300px;
+        
+    }
+    .review{
+        width: 80%;
+        
+        height: auto;
+        margin-left: 10%;
+        
+    }
+
+    .contactUs{
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        
+    }
+    .contactUs h1{
+        font-size: 2em;
+        margin-bottom: 0.5em;
+    }
+  
+
+    .fLogo img{
+        width: 10em;
+        height: 10em;
+        margin-bottom: 2em;
+    }
+
+    .fServices h3{
+        font-size: 1.5em;
+        
+    }
+    .fAbout h3{
+        font-size: 1.5em;
+        
+        
+    }
+
+    
+    .sList h4,
+    .aList h4{
+        font-size: 1.3em;
+        margin-left: 0em;
+        
+
+    }
+
+
+ 
+
+    .fInformation h3{
+        font-size: 1.5em;
+       
+        margin-top: 1.5em;
+    }
+
+    .fInformation h4{
+        font-size: 1.2em;
+    }
+  
+
+    .fInformation iframe{
+        width: 20em;
+        height: 15em;
+        margin-bottom: 10%;
+        border-radius: 1%;
+        
+    }
+        
+
+}
+
+@media screen and (min-width: 992px) and (max-width:1500px){
+   
+
+    .mainBg h1
+    {
+        
+        font-size: 3em;
+        
+        opacity: 80%;
+        top: 35%;
+     
+        
+    }
+
+    .card1,
+    .card4{
+       background-color: #0275d8
+    }
+
+    .card3,
+    .card6{
+       background-color: #d9534f
+    }
+
+    .card2,
+    .card5{
+        background: rgb(2,117,216);
+    background: linear-gradient(90deg, rgba(2,117,216,1) 0%, rgba(2,117,216,1) 50%, rgba(200,86,90,1) 50%, rgba(200,86,90,1) 100%);
+
+    }
+    
+    .mainBg h2{
+        font-size: 3em;
+        left: 70%;
+        opacity: 80%;
+        top: 35%;
+     
+    }
+
+    .biosweep iframe,
+    .rotobrush iframe{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .biosweep p,
+    .rotobrush p{
+        width: 90%;
+        
+        margin-top: 2%;
+        margin-left: 5%;
+    }
+
+   
+
+    .biosweep h5,
+    .rotobrush h5{
+        width: 90%;
+        margin-top: 2%;
+        margin-left: 5%;
+       
+     
+    }
+    .biosweep ul,
+    .rotobrush ul{
+       
+        width: 85%;
+        
+        margin-top: 2%;
+        margin-left: 5%;
+    }
+
+    .review,
+    .contactUs{
+        width: 70%;
+        
+        height: auto;
+        margin-left: 15%;
+        
+    }
+   
+
+}
+
+
