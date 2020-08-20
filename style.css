@@ -154,7 +154,7 @@ body{
     height: 190px;
     background-image: url(Disin.png);
     background-size: 150%;
-    color: #232fcf;
+    color: white;
     padding-top: 2.5em;
     text-transform: uppercase;
     font-family: 'Fredoka One', cursive;
@@ -170,7 +170,7 @@ body{
     height: 190px;
     background-image: url(Odour.png);
     background-size: 125%;
-    color: #232fcf;
+    color: white;
     padding-top: 2.5em;
     text-transform: uppercase;
     font-family: 'Fredoka One', cursive;
@@ -186,7 +186,7 @@ body{
     height: 190px;
     background-image: url(Car.png);
     background-size: 150%;
-    color: #232fcf;
+    color: white;
     font-family: 'Fredoka One', cursive;
     letter-spacing: 0.1em;
     
@@ -203,7 +203,7 @@ body{
     height: 190px;
     background-image: url(Micro.png);
     background-size: 150%;
-    color: rgba(255,0,0,0.9);
+    color: white;
     font-family: 'Fredoka One', cursive;
     letter-spacing: 0.1em;
     padding-top: 2.5em;
@@ -219,7 +219,7 @@ body{
     height: 190px;
     background-image: url(ac-duct-cleaning.jpeg);
     background-size: 180%;
-    color: rgba(255,0,0,0.9);
+    color: white;
     font-family: 'Fredoka One', cursive;
     letter-spacing: 0.1em;
     padding-top: 2.5em;
@@ -235,7 +235,7 @@ body{
     height: 190px;
     background-image: url(Ac\ disin.jpg);
     background-size: 200%;
-    color: rgba(255,0,0,0.9);
+    color: white;
     font-family: 'Fredoka One', cursive;
     letter-spacing: 0.1em;
     padding-top: 2.5em;
@@ -564,7 +564,7 @@ body{
     }
 
     .socialNav img{
-        width: 1.8em;
+        width: 1.4em;
         height: 2em;
         margin-top: 0.3em; 
         padding-bottom: 0.5em;
@@ -613,16 +613,16 @@ body{
     .mainBg h1
     {
         
-        font-size: 1.5em;
-        
+        font-size: 1em;
+        margin-left: 5%;
         opacity: 80%;
      
         
     }
     
     .mainBg h2{
-        font-size: 2em;
-        left: 64%;
+        font-size: 1em;
+        left: 75%;
         opacity: 80%;
      
     }
@@ -678,13 +678,13 @@ body{
         width: 85%;
         margin-top: 2%;
         margin-left: 5%;
-        font-size: 1em;
+        font-size: 0.7em;
      
     }
     .biosweep ul{
        
         width: 85%;
-        
+        font-size: 0.6em;
         margin-top: 2%;
         margin-left: 7%;
     }
@@ -713,14 +713,14 @@ body{
     .rotobrush h5{
         width: 85%;
         margin-top: 2%;
-        margin-left: 5%;
-        font-size: 1em;
+        margin-left: 8%;
+        font-size: 0.7em;
         color: black;
     }
 
     .rotobrush ul{
         width: 85%;
-        
+        font-size: 0.6em;
         margin-top: 2%;
         margin-left: 7%;
         
